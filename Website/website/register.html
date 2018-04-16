@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Identification</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body class="subpage">
+
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <a href="index.html" class="logo"><strong>Projection</strong></a>
+                <nav id="nav">
+                    <a href="index.html">Home</a>
+                    <a href="generic.html">Identification</a>
+                    <a href="elements.html">Outils</a>
+                </nav>
+                <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+            </div>
+        </header>
+
+        <!-- Three -->
+        <section id="three" class="wrapper">
+            <div class="inner">
+                <header class="align-center">
+                    <div class="image round left">
+                        <img src="images/pic01.jpg" alt="Pic 01" />
+                    </div>
+                    <div class="image round right">
+                        <img src="images/pic02.jpg" alt="Pic 02" />
+                    </div>
+                    <h2>INSCRIPTION</h2>
+                </header>
+                <div>
+
+                    <form method="post" action="register.php">
+                        <div class="row uniform">
+                            <div class="6u 12u$(small)">
+                                <input type="radio" id="monsieur" name="civ" value="0" checked>
+                                <label for="monsieur">Monsieur</label>
+                            </div>
+                            <div class="6u 12u$(small)">
+                                <input type="radio" id="madame" name="civ" value="1">
+                                <label for="madame" >Madame</label>
+                            </div>
+                            <div class="6u 12u$(xsmall)">
+                                <input type="text" name="nom" id="nom" value="" placeholder="Nom" />
+                            </div>
+                             <div class="6u 12u$(xsmall)">
+                                <input type="text" name="prenom" id="prenom" value="" placeholder="Prénom" />
+                            </div>
+                            <div class="12u$">
+                                <input type="email" name="email" id="email" value="" placeholder="Email" />
+                            </div>
+                            <div class="12u$">
+                                <input type="password" name="mdp" id="mdp" value="" placeholder="Mot de passe" />
+                            </div>
+                            <div class="12u$">
+                                <input type="text" name="key" id="key" value="" placeholder="Clé d'activation"/>
+                            </div>
+                            <!-- Break -->
+                            <div class="4u 12u$(small)">
+                                <input type="radio" id="assistant" name="type" value="1" checked>
+                                <label for="assistant">Assistant</label>
+                            </div>
+                            <div class="4u 12u$(small)">
+                                <input type="radio" id="technicien" value="2" name="type">
+                                <label for="technicien">Technicien</label>
+                            </div>
+                            <div class="4u$ 12u$(small)">
+                                <input type="radio" id="autre" value="0" name="type">
+                                <label for="autre">Autre</label>
+                            </div>
+                            <!-- Break -->
+                            <div class="12u$">
+                                <ul class="actions">
+                                    <li><input type="submit" value="Valider" /></li>
+                                    <li><input type="reset" value="Reset" class="alt" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer" >
+            <div class="inner">
+                <div class="copyright">
+                    &copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
